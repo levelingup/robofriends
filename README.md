@@ -7,3 +7,5 @@ Using React to search for your robot friends. Using two separate APIs to fetch t
 ## Resources
 - [Robohash](https://robohash.org/)
 - [JSON Placeholder](https://jsonplaceholder.typicode.com/)
+
+[View live](https://levelingup.github.io/robofriends/)
