@@ -7,6 +7,7 @@ import ErrorBoundry from "../components/ErrorBoundry";
 import './App.css';
 
 import { requestRobots, setSearchField } from '../actions'
+import Header from "../components/Header";
 
 // what piece of state I need to listen to and send it down as props
 const mapStateToProps = state => {
@@ -39,7 +40,7 @@ class App extends Component {
             <div className="tc"><h1 className="f1">Loading...</h1></div> : 
         (
             <div className="tc">
-                <h1 className="f1">RoboFriends</h1>
+                <Header />
                 <SearchBox searchChange={onSearchChange} />
                 <Scroll>
                     <ErrorBoundry>
